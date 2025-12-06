@@ -9,7 +9,7 @@ int main() {
 
     // 1) 일단 절대 경로로 테스트
     // jongro.graphml 이 실제로 있는 경로로 바꿔줘야 함!
-    std::string filename = "jongro.graphml";
+    std::string filename = "./jongro.graphml";
 
     std::cout << "Trying to open: " << filename << "\n";
     if (!g.loadFromGraphML(filename)) {
